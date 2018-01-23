@@ -3,14 +3,14 @@ of one or more blanks by single blank */
 include <stdio.h>
 int main(void)
 {
-	int c; 
+    int c; 
     while ( ( c = getchar() ) != EOF )
     {
-			if ( c == ' ') 
-			{
-				while (( c = getchar() ) == ' ');
-				putchar(' ');
+	if ( c == ' ') 
+	{
+		while (( c = getchar() ) == ' ');
+		putchar(' ');
     	}
     	putchar(c); 
-		}
+    }
 }
