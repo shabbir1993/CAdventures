@@ -1,8 +1,5 @@
 #include <stdio.h>
 
-#define OUT 1
-#define IN 0
-
 main() {
 
     int c;
